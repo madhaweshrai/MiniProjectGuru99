@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 import BaseClass.MultiBrowsers;
 import ObjectRepository.TestCase1_Element;
+import ObjectRepository.TestCase3_Element;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestCase3 extends MultiBrowsers{
@@ -19,13 +20,18 @@ public void guruTEstcase1()
 	// click on mobile
 	obj.mobile_click();
 	System.out.println("mobile clicked");
-	//click on drop down
-	obj.dropdown_click();
-	System.out.println("drop down clicked");
-	//click on name
-	obj.click_drpdown_name();
-	// verify sorting
-	obj.verify_sorting();
+	
+	TestCase3_Element obj3 = new TestCase3_Element(wdriver);
+	//click on add to cart
+	obj3.add_to_cart();
+	//enter 1000 in quantity
+	
+	//click on update
+	
+	//verify error message,click on empty cart and verify cart is empty
+	
+	obj3.quantity();
+	
 	
 	
 	

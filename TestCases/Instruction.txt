@@ -1,0 +1,11 @@
+Hi Guys !
+
+Complete your project with following instructions
+
+1- Follow all coding standards
+2- Complete proect in framework only
+3- Follow Page object model apporaoch for locators
+4- Test NG should be used for running your test cases
+5- Only framework is allowed. Don't do it manually.
+6- After completing project upload and share code with github
+7- Run full project as a jenkins build.
